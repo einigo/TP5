@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="javascript" />
+    <meta name="keywords" content="ejercicios, dom, bom" />
+    <meta name="author" content="Enzo" />
+    <title>Ejercicio 2</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+    defer
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../style/style.css">
+  </head>
+ <body>
+    <header>
+    </header>
+    <main>
+        <form id="personaForm">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required><br>
+    
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" required><br>
+    
+            <label for="DNI">DNI:</label>
+            <input type="number" id="DNI" required><br>
+    
+            <label for="sexo">Sexo:</label>
+            <input type="text" id="sexo" required><br>
+    
+            <label for="peso">Peso:</label>
+            <input type="number" id="peso" required><br>
+    
+            <label for="altura">Altura:</label>
+            <input type="number" id="altura" required><br>
+    
+            <label for="añoNacimiento">Año de Nacimiento:</label>
+            <input type="number" id="añoNacimiento" required><br>
+    
+            <button type="button" id="crearPersonaBtn">Crear Persona</button>
+        </form>
+    
+        <button type="button" id="mostrarGeneracionBtn">Mostrar Generación</button>
+        <button type="button" id="esMayorDeEdadBtn">Es Mayor de Edad</button>
+        <section>
+            <a href="/index.html">Volver al inicio</a>
+        </section>
+    </main>
+    <script type="module" src="../js/punto2.js"></script>
+ </body>
+</html>
